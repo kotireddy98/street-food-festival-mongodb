@@ -1,0 +1,230 @@
+
+6a Revenue per vendor (EUR, descending)
+[
+  {
+    vendor_id: 'V06',
+    vendor: 'Sushi Wave',
+    revenue: 448.5,
+    orders: 29
+  },
+  {
+    vendor_id: 'V11',
+    vendor: 'Napoli Slice',
+    revenue: 389,
+    orders: 22
+  },
+  {
+    vendor_id: 'V03',
+    vendor: 'Tbilisi Fire',
+    revenue: 379,
+    orders: 25
+  },
+  {
+    vendor_id: 'V05',
+    vendor: 'Tokyo Ramen Bar',
+    revenue: 375,
+    orders: 21
+  },
+  {
+    vendor_id: 'V10',
+    vendor: 'Beirut Bites',
+    revenue: 340.5,
+    orders: 25
+  },
+  {
+    vendor_id: 'V09',
+    vendor: 'Bombay Street',
+    revenue: 313,
+    orders: 26
+  },
+  {
+    vendor_id: 'V04',
+    vendor: 'Supra Grill',
+    revenue: 311.5,
+    orders: 21
+  },
+  {
+    vendor_id: 'V07',
+    vendor: 'Taco Loco',
+    revenue: 284.5,
+    orders: 19
+  },
+  {
+    vendor_id: 'V08',
+    vendor: 'El Fuego',
+    revenue: 273.5,
+    orders: 23
+  },
+  {
+    vendor_id: 'V12',
+    vendor: 'Borsch & Co',
+    revenue: 264.5,
+    orders: 23
+  },
+  {
+    vendor_id: 'V01',
+    vendor: 'Pelmeņi Express',
+    revenue: 219.5,
+    orders: 21
+  },
+  {
+    vendor_id: 'V02',
+    vendor: 'Rīgas Kūpinātava',
+    revenue: 183.5,
+    orders: 20
+  }
+]
+
+6b Busiest hour of each festival day
+[
+  {
+    day: '20 June 2026',
+    busiest_hour: '12:00-13:00 UTC',
+    orders: 11,
+    revenue: 177.5
+  },
+  {
+    day: '21 June 2026',
+    busiest_hour: '15:00-16:00 UTC',
+    orders: 13,
+    revenue: 146
+  },
+  {
+    day: '22 June 2026',
+    busiest_hour: '14:00-15:00 UTC',
+    orders: 16,
+    revenue: 213.5
+  }
+]
+
+6c Best-selling dish per cuisine (by portions sold)
+[
+  {
+    cuisine: 'Georgian',
+    best_dish: 'Adjarian khachapuri',
+    vendor: 'Tbilisi Fire',
+    portions_sold: 25
+  },
+  {
+    cuisine: 'Indian',
+    best_dish: 'Chana masala',
+    vendor: 'Bombay Street',
+    portions_sold: 17
+  },
+  {
+    cuisine: 'Italian',
+    best_dish: 'Margherita pizza',
+    vendor: 'Napoli Slice',
+    portions_sold: 20
+  },
+  {
+    cuisine: 'Japanese',
+    best_dish: 'Avocado maki',
+    vendor: 'Sushi Wave',
+    portions_sold: 21
+  },
+  {
+    cuisine: 'Latvian',
+    best_dish: 'Potato pancakes',
+    vendor: 'Rīgas Kūpinātava',
+    portions_sold: 19
+  },
+  {
+    cuisine: 'Lebanese',
+    best_dish: 'Hummus plate',
+    vendor: 'Beirut Bites',
+    portions_sold: 19
+  },
+  {
+    cuisine: 'Mexican',
+    best_dish: 'Chicken quesadilla',
+    vendor: 'El Fuego',
+    portions_sold: 26
+  },
+  {
+    cuisine: 'Ukrainian',
+    best_dish: 'Varenyky with potato',
+    vendor: 'Borsch & Co',
+    portions_sold: 22
+  }
+]
+
+6d Payment share (%)
+[
+  {
+    payment: 'card',
+    orders: 97,
+    pct_of_orders: 35.3,
+    pct_of_revenue: 35
+  },
+  {
+    payment: 'app',
+    orders: 89,
+    pct_of_orders: 32.4,
+    pct_of_revenue: 31.8
+  },
+  {
+    payment: 'cash',
+    orders: 89,
+    pct_of_orders: 32.4,
+    pct_of_revenue: 33.1
+  }
+]
+
+6e Document stored in collection festival_report:
+{
+  _id: 'festival-2026',
+  title: 'Street Food Festival 20-22 June 2026 - final report',
+  orders: 275,
+  revenue_eur: 3782,
+  avg_order_eur: 13.75,
+  portions_sold: 535,
+  per_day: [
+    {
+      day: '2026-06-20',
+      orders: 84,
+      revenue: 1175
+    },
+    {
+      day: '2026-06-21',
+      orders: 93,
+      revenue: 1224.5
+    },
+    {
+      day: '2026-06-22',
+      orders: 98,
+      revenue: 1382.5
+    }
+  ],
+  top_vendors: [
+    {
+      vendor_id: 'V06',
+      name: 'Sushi Wave',
+      revenue: 448.5
+    },
+    {
+      vendor_id: 'V11',
+      name: 'Napoli Slice',
+      revenue: 389
+    },
+    {
+      vendor_id: 'V03',
+      name: 'Tbilisi Fire',
+      revenue: 379
+    }
+  ],
+  payments: [
+    {
+      payment: 'app',
+      orders: 89
+    },
+    {
+      payment: 'card',
+      orders: 97
+    },
+    {
+      payment: 'cash',
+      orders: 89
+    }
+  ]
+}

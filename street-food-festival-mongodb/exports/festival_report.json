@@ -1,0 +1,95 @@
+[
+  {
+    "_id": "festival-2026",
+    "title": "Street Food Festival 20-22 June 2026 - final report",
+    "generated_at": {
+      "$date": {
+        "$numberLong": "1794242805715"
+      }
+    },
+    "orders": {
+      "$numberInt": "275"
+    },
+    "revenue_eur": {
+      "$numberInt": "3782"
+    },
+    "avg_order_eur": {
+      "$numberDouble": "13.75"
+    },
+    "portions_sold": {
+      "$numberInt": "535"
+    },
+    "per_day": [
+      {
+        "day": "2026-06-20",
+        "orders": {
+          "$numberInt": "84"
+        },
+        "revenue": {
+          "$numberInt": "1175"
+        }
+      },
+      {
+        "day": "2026-06-21",
+        "orders": {
+          "$numberInt": "93"
+        },
+        "revenue": {
+          "$numberDouble": "1224.5"
+        }
+      },
+      {
+        "day": "2026-06-22",
+        "orders": {
+          "$numberInt": "98"
+        },
+        "revenue": {
+          "$numberDouble": "1382.5"
+        }
+      }
+    ],
+    "top_vendors": [
+      {
+        "vendor_id": "V06",
+        "name": "Sushi Wave",
+        "revenue": {
+          "$numberDouble": "448.5"
+        }
+      },
+      {
+        "vendor_id": "V11",
+        "name": "Napoli Slice",
+        "revenue": {
+          "$numberInt": "389"
+        }
+      },
+      {
+        "vendor_id": "V03",
+        "name": "Tbilisi Fire",
+        "revenue": {
+          "$numberInt": "379"
+        }
+      }
+    ],
+    "payments": [
+      {
+        "payment": "app",
+        "orders": {
+          "$numberInt": "89"
+        }
+      },
+      {
+        "payment": "card",
+        "orders": {
+          "$numberInt": "97"
+        }
+      },
+      {
+        "payment": "cash",
+        "orders": {
+          "$numberInt": "89"
+        }
+      }
+    ]
+  }
+]

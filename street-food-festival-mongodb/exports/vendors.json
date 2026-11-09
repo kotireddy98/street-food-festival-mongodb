@@ -1,0 +1,655 @@
+[
+  {
+    "_id": "V01",
+    "name": "Pelmeņi Express",
+    "cuisine": "Latvian",
+    "stall": {
+      "zone": "A",
+      "number": {
+        "$numberInt": "3"
+      }
+    },
+    "rating": {
+      "$numberDouble": "4.6"
+    },
+    "tags": [
+      "traditional",
+      "family"
+    ],
+    "menu": [
+      {
+        "item": "Pelmeņi with sour cream",
+        "price": {
+          "$numberDouble": "6.5"
+        },
+        "vegan": false,
+        "allergens": [
+          "gluten",
+          "milk"
+        ]
+      },
+      {
+        "item": "Rye bread pudding",
+        "price": {
+          "$numberInt": "4"
+        },
+        "vegan": false,
+        "allergens": [
+          "gluten",
+          "milk",
+          "egg"
+        ]
+      },
+      {
+        "item": "Grey peas with onion",
+        "price": {
+          "$numberInt": "5"
+        },
+        "vegan": true,
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "_id": "V02",
+    "name": "Rīgas Kūpinātava",
+    "cuisine": "Latvian",
+    "stall": {
+      "zone": "A",
+      "number": {
+        "$numberInt": "5"
+      }
+    },
+    "rating": {
+      "$numberDouble": "4.2"
+    },
+    "tags": [
+      "smoked",
+      "seafood"
+    ],
+    "menu": [
+      {
+        "item": "Smoked sprat sandwich",
+        "price": {
+          "$numberDouble": "5.5"
+        },
+        "vegan": false,
+        "allergens": [
+          "fish",
+          "gluten"
+        ]
+      },
+      {
+        "item": "Potato pancakes",
+        "price": {
+          "$numberInt": "5"
+        },
+        "vegan": false,
+        "allergens": [
+          "egg",
+          "gluten"
+        ]
+      },
+      {
+        "item": "Sauerkraut salad",
+        "price": {
+          "$numberDouble": "3.5"
+        },
+        "vegan": true,
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "_id": "V03",
+    "name": "Tbilisi Fire",
+    "cuisine": "Georgian",
+    "stall": {
+      "zone": "B",
+      "number": {
+        "$numberInt": "1"
+      }
+    },
+    "rating": {
+      "$numberDouble": "4.8"
+    },
+    "tags": [
+      "bakery",
+      "bestseller"
+    ],
+    "menu": [
+      {
+        "item": "Adjarian khachapuri",
+        "price": {
+          "$numberDouble": "9.9"
+        },
+        "vegan": false,
+        "allergens": [
+          "gluten",
+          "milk",
+          "egg"
+        ]
+      },
+      {
+        "item": "Khinkali (5 pcs)",
+        "price": {
+          "$numberDouble": "8.8"
+        },
+        "vegan": false,
+        "allergens": [
+          "gluten"
+        ]
+      },
+      {
+        "item": "Badrijani with walnuts",
+        "price": {
+          "$numberDouble": "6.6"
+        },
+        "vegan": true,
+        "allergens": [
+          "nuts"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "V04",
+    "name": "Supra Grill",
+    "cuisine": "Georgian",
+    "stall": {
+      "zone": "B",
+      "number": {
+        "$numberInt": "4"
+      }
+    },
+    "rating": {
+      "$numberDouble": "4.3"
+    },
+    "tags": [
+      "grill",
+      "meat"
+    ],
+    "menu": [
+      {
+        "item": "Mtsvadi pork skewer",
+        "price": {
+          "$numberDouble": "11.55"
+        },
+        "vegan": false,
+        "allergens": []
+      },
+      {
+        "item": "Lobio bean stew",
+        "price": {
+          "$numberDouble": "7.15"
+        },
+        "vegan": true,
+        "allergens": []
+      },
+      {
+        "item": "Churchkhela",
+        "price": {
+          "$numberDouble": "3.85"
+        },
+        "vegan": true,
+        "allergens": [
+          "nuts"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "V05",
+    "name": "Tokyo Ramen Bar",
+    "cuisine": "Japanese",
+    "stall": {
+      "zone": "B",
+      "number": {
+        "$numberInt": "2"
+      }
+    },
+    "rating": {
+      "$numberDouble": "4.7"
+    },
+    "tags": [
+      "noodles",
+      "spicy"
+    ],
+    "menu": [
+      {
+        "item": "Tonkotsu ramen",
+        "price": {
+          "$numberInt": "11"
+        },
+        "vegan": false,
+        "allergens": [
+          "gluten",
+          "egg",
+          "soy",
+          "sesame"
+        ],
+        "available": false,
+        "recalled_at": {
+          "$date": {
+            "$numberLong": "1782154800000"
+          }
+        }
+      },
+      {
+        "item": "Vegan miso ramen",
+        "price": {
+          "$numberDouble": "9.5"
+        },
+        "vegan": true,
+        "allergens": [
+          "gluten",
+          "soy",
+          "sesame"
+        ],
+        "available": false,
+        "recalled_at": {
+          "$date": {
+            "$numberLong": "1782154800000"
+          }
+        }
+      },
+      {
+        "item": "Edamame",
+        "price": {
+          "$numberInt": "4"
+        },
+        "vegan": true,
+        "allergens": [
+          "soy"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "V06",
+    "name": "Sushi Wave",
+    "cuisine": "Japanese",
+    "stall": {
+      "zone": "C",
+      "number": {
+        "$numberInt": "2"
+      }
+    },
+    "rating": {
+      "$numberDouble": "4.1"
+    },
+    "tags": [
+      "seafood",
+      "fresh"
+    ],
+    "menu": [
+      {
+        "item": "Salmon nigiri set",
+        "price": {
+          "$numberInt": "12"
+        },
+        "vegan": false,
+        "allergens": [
+          "fish",
+          "soy",
+          "sesame"
+        ],
+        "available": false,
+        "recalled_at": {
+          "$date": {
+            "$numberLong": "1782154800000"
+          }
+        }
+      },
+      {
+        "item": "Avocado maki",
+        "price": {
+          "$numberDouble": "6.5"
+        },
+        "vegan": true,
+        "allergens": [
+          "soy",
+          "sesame"
+        ],
+        "available": false,
+        "recalled_at": {
+          "$date": {
+            "$numberLong": "1782154800000"
+          }
+        }
+      },
+      {
+        "item": "Mochi ice cream",
+        "price": {
+          "$numberDouble": "4.5"
+        },
+        "vegan": false,
+        "allergens": [
+          "milk"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "V07",
+    "name": "Taco Loco",
+    "cuisine": "Mexican",
+    "stall": {
+      "zone": "A",
+      "number": {
+        "$numberInt": "1"
+      }
+    },
+    "rating": {
+      "$numberDouble": "4.5"
+    },
+    "tags": [
+      "street",
+      "spicy"
+    ],
+    "menu": [
+      {
+        "item": "Al pastor tacos",
+        "price": {
+          "$numberDouble": "8.5"
+        },
+        "vegan": false,
+        "allergens": []
+      },
+      {
+        "item": "Black bean burrito",
+        "price": {
+          "$numberDouble": "7.5"
+        },
+        "vegan": true,
+        "allergens": [
+          "gluten"
+        ]
+      },
+      {
+        "item": "Guacamole & chips",
+        "price": {
+          "$numberInt": "5"
+        },
+        "vegan": true,
+        "allergens": []
+      }
+    ]
+  },
+  {
+    "_id": "V08",
+    "name": "El Fuego",
+    "cuisine": "Mexican",
+    "stall": {
+      "zone": "C",
+      "number": {
+        "$numberInt": "5"
+      }
+    },
+    "rating": {
+      "$numberDouble": "3.9"
+    },
+    "tags": [
+      "cheesy",
+      "sweet"
+    ],
+    "menu": [
+      {
+        "item": "Chicken quesadilla",
+        "price": {
+          "$numberInt": "8"
+        },
+        "vegan": false,
+        "allergens": [
+          "gluten",
+          "milk"
+        ]
+      },
+      {
+        "item": "Elote corn",
+        "price": {
+          "$numberDouble": "4.5"
+        },
+        "vegan": false,
+        "allergens": [
+          "milk"
+        ]
+      },
+      {
+        "item": "Churros",
+        "price": {
+          "$numberInt": "4"
+        },
+        "vegan": false,
+        "allergens": [
+          "gluten",
+          "egg",
+          "milk"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "V09",
+    "name": "Bombay Street",
+    "cuisine": "Indian",
+    "stall": {
+      "zone": "B",
+      "number": {
+        "$numberInt": "3"
+      }
+    },
+    "rating": {
+      "$numberDouble": "4.6"
+    },
+    "tags": [
+      "curry",
+      "spicy"
+    ],
+    "menu": [
+      {
+        "item": "Butter chicken & rice",
+        "price": {
+          "$numberInt": "10"
+        },
+        "vegan": false,
+        "allergens": [
+          "milk"
+        ]
+      },
+      {
+        "item": "Chana masala",
+        "price": {
+          "$numberInt": "7"
+        },
+        "vegan": true,
+        "allergens": []
+      },
+      {
+        "item": "Samosa (2 pcs)",
+        "price": {
+          "$numberDouble": "4.5"
+        },
+        "vegan": true,
+        "allergens": [
+          "gluten"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "V10",
+    "name": "Beirut Bites",
+    "cuisine": "Lebanese",
+    "stall": {
+      "zone": "B",
+      "number": {
+        "$numberInt": "5"
+      }
+    },
+    "rating": {
+      "$numberDouble": "4.5"
+    },
+    "tags": [
+      "mezze",
+      "wraps"
+    ],
+    "menu": [
+      {
+        "item": "Falafel wrap",
+        "price": {
+          "$numberDouble": "7.5"
+        },
+        "vegan": true,
+        "allergens": [
+          "gluten",
+          "sesame"
+        ],
+        "available": false,
+        "recalled_at": {
+          "$date": {
+            "$numberLong": "1782154800000"
+          }
+        }
+      },
+      {
+        "item": "Hummus plate",
+        "price": {
+          "$numberInt": "6"
+        },
+        "vegan": true,
+        "allergens": [
+          "sesame"
+        ],
+        "available": false,
+        "recalled_at": {
+          "$date": {
+            "$numberLong": "1782154800000"
+          }
+        }
+      },
+      {
+        "item": "Chicken shawarma",
+        "price": {
+          "$numberInt": "9"
+        },
+        "vegan": false,
+        "allergens": [
+          "gluten",
+          "sesame",
+          "milk"
+        ],
+        "available": false,
+        "recalled_at": {
+          "$date": {
+            "$numberLong": "1782154800000"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "V11",
+    "name": "Napoli Slice",
+    "cuisine": "Italian",
+    "stall": {
+      "zone": "A",
+      "number": {
+        "$numberInt": "2"
+      }
+    },
+    "rating": {
+      "$numberDouble": "4.3"
+    },
+    "tags": [
+      "pizza",
+      "family"
+    ],
+    "menu": [
+      {
+        "item": "Margherita pizza",
+        "price": {
+          "$numberDouble": "9.5"
+        },
+        "vegan": false,
+        "allergens": [
+          "gluten",
+          "milk"
+        ]
+      },
+      {
+        "item": "Marinara pizza",
+        "price": {
+          "$numberInt": "8"
+        },
+        "vegan": true,
+        "allergens": [
+          "gluten"
+        ]
+      },
+      {
+        "item": "Tiramisu",
+        "price": {
+          "$numberInt": "5"
+        },
+        "vegan": false,
+        "allergens": [
+          "gluten",
+          "milk",
+          "egg"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "V12",
+    "name": "Borsch & Co",
+    "cuisine": "Ukrainian",
+    "stall": {
+      "zone": "C",
+      "number": {
+        "$numberInt": "1"
+      }
+    },
+    "rating": {
+      "$numberDouble": "4.4"
+    },
+    "tags": [
+      "traditional",
+      "soup"
+    ],
+    "menu": [
+      {
+        "item": "Red borscht",
+        "price": {
+          "$numberInt": "6"
+        },
+        "vegan": true,
+        "allergens": []
+      },
+      {
+        "item": "Varenyky with potato",
+        "price": {
+          "$numberInt": "7"
+        },
+        "vegan": false,
+        "allergens": [
+          "gluten",
+          "milk"
+        ]
+      },
+      {
+        "item": "Syrnyky",
+        "price": {
+          "$numberDouble": "5.5"
+        },
+        "vegan": false,
+        "allergens": [
+          "milk",
+          "egg",
+          "gluten"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,257 @@
+Dishes containing sesame BEFORE the recall:
+[
+  {
+    vendor: 'Tokyo Ramen Bar',
+    dish: 'Tonkotsu ramen',
+    available: true
+  },
+  {
+    vendor: 'Tokyo Ramen Bar',
+    dish: 'Vegan miso ramen',
+    available: true
+  },
+  {
+    vendor: 'Sushi Wave',
+    dish: 'Salmon nigiri set',
+    available: true
+  },
+  {
+    vendor: 'Sushi Wave',
+    dish: 'Avocado maki',
+    available: true
+  },
+  {
+    vendor: 'Beirut Bites',
+    dish: 'Falafel wrap',
+    available: true
+  },
+  {
+    vendor: 'Beirut Bites',
+    dish: 'Hummus plate',
+    available: true
+  },
+  {
+    vendor: 'Beirut Bites',
+    dish: 'Chicken shawarma',
+    available: true
+  }
+]
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 3,
+  modifiedCount: 3,
+  upsertedCount: 0
+}
+
+Dishes now marked unavailable:
+[
+  {
+    vendor_id: 'V05',
+    vendor: 'Tokyo Ramen Bar',
+    dish: 'Tonkotsu ramen',
+    available: false
+  },
+  {
+    vendor_id: 'V05',
+    vendor: 'Tokyo Ramen Bar',
+    dish: 'Vegan miso ramen',
+    available: false
+  },
+  {
+    vendor_id: 'V06',
+    vendor: 'Sushi Wave',
+    dish: 'Salmon nigiri set',
+    available: false
+  },
+  {
+    vendor_id: 'V06',
+    vendor: 'Sushi Wave',
+    dish: 'Avocado maki',
+    available: false
+  },
+  {
+    vendor_id: 'V10',
+    vendor: 'Beirut Bites',
+    dish: 'Falafel wrap',
+    available: false
+  },
+  {
+    vendor_id: 'V10',
+    vendor: 'Beirut Bites',
+    dish: 'Hummus plate',
+    available: false
+  },
+  {
+    vendor_id: 'V10',
+    vendor: 'Beirut Bites',
+    dish: 'Chicken shawarma',
+    available: false
+  }
+]
+
+SAFE stalls for a sesame-allergic visitor (no sesame anywhere on the menu):
+[
+  {
+    _id: 'V07',
+    name: 'Taco Loco',
+    cuisine: 'Mexican',
+    stall: {
+      zone: 'A',
+      number: 1
+    }
+  },
+  {
+    _id: 'V11',
+    name: 'Napoli Slice',
+    cuisine: 'Italian',
+    stall: {
+      zone: 'A',
+      number: 2
+    }
+  },
+  {
+    _id: 'V01',
+    name: 'Pelmeņi Express',
+    cuisine: 'Latvian',
+    stall: {
+      zone: 'A',
+      number: 3
+    }
+  },
+  {
+    _id: 'V02',
+    name: 'Rīgas Kūpinātava',
+    cuisine: 'Latvian',
+    stall: {
+      zone: 'A',
+      number: 5
+    }
+  },
+  {
+    _id: 'V03',
+    name: 'Tbilisi Fire',
+    cuisine: 'Georgian',
+    stall: {
+      zone: 'B',
+      number: 1
+    }
+  },
+  {
+    _id: 'V09',
+    name: 'Bombay Street',
+    cuisine: 'Indian',
+    stall: {
+      zone: 'B',
+      number: 3
+    }
+  },
+  {
+    _id: 'V04',
+    name: 'Supra Grill',
+    cuisine: 'Georgian',
+    stall: {
+      zone: 'B',
+      number: 4
+    }
+  },
+  {
+    _id: 'V12',
+    name: 'Borsch & Co',
+    cuisine: 'Ukrainian',
+    stall: {
+      zone: 'C',
+      number: 1
+    }
+  },
+  {
+    _id: 'V08',
+    name: 'El Fuego',
+    cuisine: 'Mexican',
+    stall: {
+      zone: 'C',
+      number: 5
+    }
+  }
+]
+
+Stalls to AVOID (sesame dishes recalled; risk of cross-contamination):
+[
+  {
+    _id: 'V05',
+    name: 'Tokyo Ramen Bar',
+    stall: {
+      zone: 'B',
+      number: 2
+    },
+    recalled: [
+      'Tonkotsu ramen',
+      'Vegan miso ramen'
+    ],
+    still_sold: [
+      'Edamame'
+    ]
+  },
+  {
+    _id: 'V06',
+    name: 'Sushi Wave',
+    stall: {
+      zone: 'C',
+      number: 2
+    },
+    recalled: [
+      'Salmon nigiri set',
+      'Avocado maki'
+    ],
+    still_sold: [
+      'Mochi ice cream'
+    ]
+  },
+  {
+    _id: 'V10',
+    name: 'Beirut Bites',
+    stall: {
+      zone: 'B',
+      number: 5
+    },
+    recalled: [
+      'Falafel wrap',
+      'Hummus plate',
+      'Chicken shawarma'
+    ],
+    still_sold: []
+  }
+]
+
+Bonus - recalled dishes sold after 19:00 on 22 June (visitors to warn):
+[
+  {
+    _id: 'V05',
+    orders: 1,
+    times: [
+      '19:00'
+    ]
+  },
+  {
+    _id: 'V06',
+    orders: 3,
+    times: [
+      '20:38',
+      '22:29',
+      '22:30'
+    ]
+  },
+  {
+    _id: 'V10',
+    orders: 7,
+    times: [
+      '19:23',
+      '19:30',
+      '20:17',
+      '21:06',
+      '21:27',
+      '21:55',
+      '21:56'
+    ]
+  }
+]

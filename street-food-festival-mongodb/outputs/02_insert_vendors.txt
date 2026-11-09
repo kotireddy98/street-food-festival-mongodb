@@ -1,0 +1,27 @@
+Vendors inserted: 13
+Distinct cuisines (9):
+[
+  'Georgian',
+  'Indian',
+  'Italian',
+  'Japanese',
+  'Korean',
+  'Latvian',
+  'Lebanese',
+  'Mexican',
+  'Ukrainian'
+]
+[
+  {
+    _id: 'A',
+    vendors: 4
+  },
+  {
+    _id: 'B',
+    vendors: 5
+  },
+  {
+    _id: 'C',
+    vendors: 4
+  }
+]

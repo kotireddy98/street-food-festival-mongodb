@@ -1,0 +1,7152 @@
+[
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947615"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782047580000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Salmon nigiri set",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "12"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "24"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947616"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781979780000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Margherita pizza",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "9.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947617"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782151200000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947618"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782159360000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Churchkhela",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "3.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "10.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947619"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782143700000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Salmon nigiri set",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "12"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "24"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194761a"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782147480000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Rye bread pudding",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194761b"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782140220000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Chana masala",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194761c"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782154320000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Lobio bean stew",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "6.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194761d"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782160440000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Elote corn",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194761f"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782057360000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947620"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782138900000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Grey peas with onion",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947621"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782158460000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Grey peas with onion",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947623"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782082200000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "8"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947624"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781981760000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Edamame",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947625"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782051180000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947626"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781972460000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Badrijani with walnuts",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947627"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782052080000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Marinara pizza",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "24"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947628"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781989140000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Pelmeņi with sour cream",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947629"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782130560000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194762a"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782063240000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Elote corn",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "13.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194762b"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782072480000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Varenyky with potato",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "14"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194762c"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781967840000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Avocado maki",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "6.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194762d"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781984460000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Salmon nigiri set",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "12"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194762e"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782164520000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Smoked sprat sandwich",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "5.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "16.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194762f"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782057420000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Lobio bean stew",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947630"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782140280000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Avocado maki",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947631"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781957880000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Potato pancakes",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947632"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782044520000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chana masala",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947633"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782067860000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Avocado maki",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "13"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947634"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782160680000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Salmon nigiri set",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "12"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "36"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947635"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782156600000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chicken shawarma",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947637"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782133140000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Avocado maki",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947638"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782078780000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "27"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947639"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782134400000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Red borscht",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194763a"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781985060000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Mochi ice cream",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "4.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194763b"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782049680000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Lobio bean stew",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "6.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194763c"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782061020000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Chana masala",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194763d"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782165660000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Varenyky with potato",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194763e"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782048780000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "8"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194763f"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782047340000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Marinara pizza",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947640"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782060900000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Guacamole & chips",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947641"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781979660000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Vegan miso ramen",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "19"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947642"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781967420000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Potato pancakes",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947643"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782050760000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Margherita pizza",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "19"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947644"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781988240000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Syrnyky",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "5.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947645"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781964780000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chicken shawarma",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "27"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947646"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782062760000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Samosa (2 pcs)",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "4.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947647"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782058440000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Varenyky with potato",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "14"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947648"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782079020000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Avocado maki",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "6.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947649"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782066540000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Badrijani with walnuts",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194764a"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782143940000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Mochi ice cream",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "13.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194764b"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782064200000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Tonkotsu ramen",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "11"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194764c"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782058740000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Falafel wrap",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "7.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "7.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194764d"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781990160000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Falafel wrap",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "7.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194764e"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781988660000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Pelmeņi with sour cream",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "6.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947650"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782140460000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Chicken shawarma",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947651"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782077100000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Chicken shawarma",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947652"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782045480000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Mochi ice cream",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947653"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782046200000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Avocado maki",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947654"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781982720000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Smoked sprat sandwich",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "5.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947655"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781973840000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Tiramisu",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947656"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782138180000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Margherita pizza",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "28.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947657"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781963760000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Syrnyky",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "5.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "5.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947658"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782062460000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Mtsvadi pork skewer",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "10.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "10.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947659"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782058860000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Salmon nigiri set",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "12"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "36"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194765a"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782163860000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Samosa (2 pcs)",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194765b"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782131100000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "8"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194765c"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782159840000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Red borscht",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "6"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194765d"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782159960000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Marinara pizza",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194765e"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782060240000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Guacamole & chips",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194765f"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782154800000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Marinara pizza",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "24"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947660"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782068640000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Khinkali (5 pcs)",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "24"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947661"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782153660000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Tonkotsu ramen",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "11"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947662"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782064560000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Syrnyky",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "5.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "5.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947663"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782071400000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Salmon nigiri set",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "12"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947665"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782081000000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Tonkotsu ramen",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "11"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "33"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947666"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781996220000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947668"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782047520000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Rye bread pudding",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947669"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782156180000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Falafel wrap",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "7.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "22.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194766a"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781995020000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Tiramisu",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194766b"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782069420000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Vegan miso ramen",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "9.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194766c"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782137640000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Butter chicken & rice",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "10"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "30"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194766d"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781963640000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Vegan miso ramen",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "9.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194766e"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782150300000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Grey peas with onion",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194766f"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782065640000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Tiramisu",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947670"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782153300000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Edamame",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "8"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947671"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782077700000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Black bean burrito",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "7.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "22.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947672"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781974320000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Churros",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947673"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781976000000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Samosa (2 pcs)",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "13.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947675"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781993100000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Potato pancakes",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947676"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781956860000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Margherita pizza",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "28.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947677"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782055380000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Elote corn",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "4.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947678"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782072720000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Avocado maki",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "6.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947679"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781973900000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Pelmeņi with sour cream",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194767a"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782138060000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Guacamole & chips",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194767b"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782050580000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Hummus plate",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "6"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194767c"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782168840000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Khinkali (5 pcs)",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194767d"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782050160000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Pelmeņi with sour cream",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194767e"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781983860000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Al pastor tacos",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "8.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "25.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194767f"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782162180000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Varenyky with potato",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947680"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782167100000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947681"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781985240000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Khinkali (5 pcs)",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947682"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782157380000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Sauerkraut salad",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "3.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "10.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947683"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782133980000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Tiramisu",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947685"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782148680000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Mtsvadi pork skewer",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "10.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947686"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782059400000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Badrijani with walnuts",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947687"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781965680000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Salmon nigiri set",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "12"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "36"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947688"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782150720000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chana masala",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947689"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781979780000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Badrijani with walnuts",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194768a"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782044760000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Rye bread pudding",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194768b"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782057120000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Elote corn",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194768c"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781959740000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Varenyky with potato",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194768d"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781995140000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Butter chicken & rice",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "10"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194768e"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782167400000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Avocado maki",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194768f"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781978760000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Elote corn",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947690"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782149820000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Chana masala",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "14"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947692"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781986620000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Avocado maki",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947693"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781970360000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Churros",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "8"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947694"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782169020000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Churchkhela",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "3.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947695"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782047160000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Red borscht",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "6"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947696"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782155580000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Potato pancakes",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947697"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782164820000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Mochi ice cream",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "4.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947698"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782045060000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Varenyky with potato",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947699"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782073260000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Mtsvadi pork skewer",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "10.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "10.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194769a"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782045300000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Samosa (2 pcs)",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "13.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194769c"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781994480000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Al pastor tacos",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "8.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "8.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194769e"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782143640000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "27"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194769f"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782065520000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Vegan miso ramen",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "19"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476a0"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782064080000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Marinara pizza",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "8"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476a1"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781995800000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476a2"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782056460000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Black bean burrito",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "7.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476a4"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782133740000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Falafel wrap",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "7.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "22.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476a5"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781985300000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Mochi ice cream",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "13.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476a6"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782053160000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Mtsvadi pork skewer",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "10.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "31.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476a7"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781977980000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Vegan miso ramen",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "19"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476a8"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781956980000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Butter chicken & rice",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "10"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476a9"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782134280000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Margherita pizza",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "28.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476aa"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782154920000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Margherita pizza",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "28.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ab"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782055620000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ac"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782049920000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Rye bread pudding",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ad"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782048420000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Hummus plate",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "6"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ae"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782052380000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Elote corn",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "4.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476af"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782163560000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "27"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476b0"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782136440000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Mtsvadi pork skewer",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "10.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "31.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476b1"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782056820000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Badrijani with walnuts",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "6"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476b2"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782065100000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476b4"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782066480000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Smoked sprat sandwich",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "5.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476b6"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781993640000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Syrnyky",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "5.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "5.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476b7"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781981460000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476b8"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781993400000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Grey peas with onion",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476b9"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781970120000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Varenyky with potato",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "14"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ba"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782134760000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476bb"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782157380000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Mochi ice cream",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "4.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476bc"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781960220000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Butter chicken & rice",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "10"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476bd"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781987460000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Churchkhela",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "3.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "10.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476be"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781990640000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Tonkotsu ramen",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "11"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "22"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476bf"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782059400000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "8"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476c1"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781973000000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Chana masala",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476c2"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782142620000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Churros",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476c3"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782069300000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Guacamole & chips",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476c4"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782138300000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Smoked sprat sandwich",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "5.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "5.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476c5"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782139200000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476c6"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782056160000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Sauerkraut salad",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "3.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "10.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476c7"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782063600000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Hummus plate",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476c8"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781982840000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Guacamole & chips",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476c9"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782154800000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Tonkotsu ramen",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "11"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "22"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ca"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782130020000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Edamame",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476cb"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781988000000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Avocado maki",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "6.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476cc"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782076740000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Potato pancakes",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476cd"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782148920000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Mochi ice cream",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "13.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ce"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781975520000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Samosa (2 pcs)",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "4.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476cf"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782049740000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Vegan miso ramen",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "19"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476d0"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781976720000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Pelmeņi with sour cream",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "6.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476d1"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782138120000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Black bean burrito",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "7.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "22.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476d2"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782079380000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Chana masala",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "14"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476d3"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782153360000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Vegan miso ramen",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "28.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476d4"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782055020000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Badrijani with walnuts",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "6"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476d6"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782054540000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Red borscht",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476d7"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781984220000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Salmon nigiri set",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "12"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "36"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476d8"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781959920000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Hummus plate",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476d9"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782076680000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Smoked sprat sandwich",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "5.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "5.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476da"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782167760000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Chana masala",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476db"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782073080000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Rye bread pudding",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "8"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476dc"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782139140000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Chana masala",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "14"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476dd"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781957820000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Mtsvadi pork skewer",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "10.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476de"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782131280000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Butter chicken & rice",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "10"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "20"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476df"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782162360000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Chicken shawarma",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476e0"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782130080000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Smoked sprat sandwich",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "5.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476e1"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781971560000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Black bean burrito",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "7.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "22.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476e2"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782161160000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Marinara pizza",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476e3"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782073080000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Pelmeņi with sour cream",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476e4"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781962260000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Hummus plate",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "6"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476e5"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782064500000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Tonkotsu ramen",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "11"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "22"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476e6"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782163620000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Chicken shawarma",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "27"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476e7"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782160980000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Lobio bean stew",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "13"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476e8"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781956800000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Potato pancakes",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476e9"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782054780000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Al pastor tacos",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "8.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "8.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ea"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781982540000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Red borscht",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476eb"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782133140000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chicken shawarma",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "27"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ec"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781974560000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Mochi ice cream",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "4.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ed"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782058080000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ee"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781961180000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Tonkotsu ramen",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "11"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ef"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782133860000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Falafel wrap",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "7.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476f0"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782075600000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Hummus plate",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476f2"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781994900000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Badrijani with walnuts",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "18"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476f3"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781970180000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Vegan miso ramen",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "9.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476f4"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781975880000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Hummus plate",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "6"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476f5"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782147600000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Khinkali (5 pcs)",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "8"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476f6"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782074520000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Butter chicken & rice",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "10"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "20"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476f7"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781964960000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Black bean burrito",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "7.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476f9"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781985900000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Potato pancakes",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476fb"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781964120000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Marinara pizza",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "24"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476fe"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781991960000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Butter chicken & rice",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "10"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476ff"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782165360000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chicken shawarma",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947700"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782139200000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Sauerkraut salad",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "3.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "3.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947701"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782146700000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Tiramisu",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947702"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782139800000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Red borscht",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947703"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782142680000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Rye bread pudding",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947704"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781965620000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "27"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947705"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782076440000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Badrijani with walnuts",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "6"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947707"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782046200000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Varenyky with potato",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947708"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781986200000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Butter chicken & rice",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "10"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "20"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947709"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782159420000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Hummus plate",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "6"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194770a"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781982180000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194770b"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782160500000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Butter chicken & rice",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "10"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194770c"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781991780000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Tonkotsu ramen",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "11"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "33"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194770d"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782148740000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Salmon nigiri set",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "12"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194770e"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782044580000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Margherita pizza",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "28.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194770f"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782045360000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Lobio bean stew",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "13"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947710"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782165300000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Chicken shawarma",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947711"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781987160000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Pelmeņi with sour cream",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947712"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782046560000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Marinara pizza",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947713"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782067440000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Al pastor tacos",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "8.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "17"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947714"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781995620000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Hummus plate",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947715"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782056100000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Varenyky with potato",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947716"
+    },
+    "vendor_id": "V03",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781988840000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Adjarian khachapuri",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "9"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "9"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947717"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782144300000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Lobio bean stew",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "13"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947718"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782164040000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947719"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781966520000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Churchkhela",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "3.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "10.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194771a"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782139980000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Potato pancakes",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194771b"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781981580000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Tonkotsu ramen",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "11"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "33"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194771c"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782139260000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Guacamole & chips",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194771d"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781994060000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Syrnyky",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "5.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "11"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194771e"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782134100000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "24"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194771f"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781958600000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Margherita pizza",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "19"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947720"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781959500000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "24"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947722"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781961780000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Guacamole & chips",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947723"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782165060000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Grey peas with onion",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947724"
+    },
+    "vendor_id": "V08",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782158040000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Chicken quesadilla",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "8"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "16"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947725"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782167340000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Salmon nigiri set",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "12"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947726"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781990760000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Samosa (2 pcs)",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "4.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947727"
+    },
+    "vendor_id": "V05",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782147960000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Edamame",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "4"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947728"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781963820000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Black bean burrito",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "7.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "22.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947729"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782058920000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Churchkhela",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "3.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "10.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194772a"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782055560000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Varenyky with potato",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194772b"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782071100000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Lobio bean stew",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194772d"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782134280000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Grey peas with onion",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194772e"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782147480000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Potato pancakes",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194772f"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782058740000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Hummus plate",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947730"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782150780000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Chana masala",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947731"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782070380000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Guacamole & chips",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947732"
+    },
+    "vendor_id": "V07",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782138660000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Black bean burrito",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "7.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "15"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947733"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782058380000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Churchkhela",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "3.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "3.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947734"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782047580000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Red borscht",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "6"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947735"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782050940000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Sauerkraut salad",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "3.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "3.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947736"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782156960000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Grey peas with onion",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947737"
+    },
+    "vendor_id": "V10",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781958000000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Hummus plate",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "6"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "12"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947738"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782136020000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Mtsvadi pork skewer",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "10.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947739"
+    },
+    "vendor_id": "V06",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782045000000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Mochi ice cream",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "4.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194773a"
+    },
+    "vendor_id": "V01",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782137940000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Grey peas with onion",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194773b"
+    },
+    "vendor_id": "V04",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782155340000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Mtsvadi pork skewer",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "10.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194773c"
+    },
+    "vendor_id": "V02",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782133320000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Potato pancakes",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194773d"
+    },
+    "vendor_id": "V12",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781984040000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Varenyky with potato",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194773f"
+    },
+    "vendor_id": "V09",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782071520000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Samosa (2 pcs)",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "4.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "4.5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947740"
+    },
+    "vendor_id": "V11",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782165480000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Tiramisu",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "10"
+    }
+  }
+]

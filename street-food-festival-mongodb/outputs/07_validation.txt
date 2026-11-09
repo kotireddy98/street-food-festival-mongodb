@@ -1,0 +1,78 @@
+{
+  ok: 1
+}
+Existing vendors that break the new rules (should be 0): 0
+
+Try to insert a dish with price -2.5 ...
+REJECTED: Document failed validation
+{
+  failingDocumentId: 'V99',
+  details: {
+    operatorName: '$jsonSchema',
+    schemaRulesNotSatisfied: [
+      {
+        operatorName: 'properties',
+        propertiesNotSatisfied: [
+          {
+            propertyName: 'menu',
+            details: [
+              {
+                operatorName: 'items',
+                reason: 'At least one item did not match the sub-schema',
+                itemIndex: 0,
+                details: [
+                  {
+                    operatorName: 'properties',
+                    propertiesNotSatisfied: [
+                      {
+                        propertyName: 'price',
+                        description: 'menu price cannot be negative',
+                        details: [
+                          {
+                            operatorName: 'minimum',
+                            specifiedAs: {
+                              minimum: 0
+                            },
+                            reason: 'comparison failed',
+                            consideredValue: -2.5
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
+Try to insert a vendor without cuisine ...
+REJECTED: Document failed validation
+[
+  {
+    operatorName: 'required',
+    specifiedAs: {
+      required: [
+        '_id',
+        'name',
+        'cuisine',
+        'stall',
+        'menu'
+      ]
+    },
+    missingProperties: [
+      'cuisine'
+    ]
+  }
+]
+
+A valid vendor is accepted:
+{
+  acknowledged: true,
+  insertedId: 'V97'
+}
+Vendors after validation tests: 12

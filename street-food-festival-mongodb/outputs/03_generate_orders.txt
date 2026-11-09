@@ -1,0 +1,22 @@
+Orders inserted: 300
+First festival order / last festival order:
+{
+  ts: ISODate('2026-06-20T12:00:00.000Z')
+}
+{
+  ts: ISODate('2026-06-22T22:57:00.000Z')
+}
+Sample order:
+{
+  vendor_id: 'V06',
+  ts: ISODate('2026-06-21T13:13:00.000Z'),
+  payment: 'app',
+  items: [
+    {
+      item: 'Salmon nigiri set',
+      qty: 2,
+      price: 12
+    }
+  ],
+  total: 24
+}

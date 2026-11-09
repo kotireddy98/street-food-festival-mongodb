@@ -1,0 +1,677 @@
+[
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194761e"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781960220000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Kimchi pancake",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "6.5"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947622"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781966940000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Kimchi pancake",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "13"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947636"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782067320000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Kimchi pancake",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "13"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194764f"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782043800000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Tteokbokki",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947664"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782151020000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Tteokbokki",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947667"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781989020000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Tteokbokki",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "14"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947674"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782162840000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Tteokbokki",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947684"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782166380000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Kimchi pancake",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "6.5"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947691"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782148200000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Bibimbap",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "9.5"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194769b"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781957100000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Kimchi pancake",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194769d"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782155640000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Tteokbokki",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476a3"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782050460000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Tteokbokki",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476b3"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782163320000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Bibimbap",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "9.5"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476b5"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782081780000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Tteokbokki",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476c0"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782160800000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Bibimbap",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "28.5"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476d5"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781978580000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Bibimbap",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "28.5"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476f1"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782150000000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Tteokbokki",
+        "qty": {
+          "$numberInt": "2"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "14"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476f8"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781981100000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Kimchi pancake",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476fa"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782165540000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Kimchi pancake",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "19.5"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476fc"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781966760000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Tteokbokki",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b19476fd"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782076980000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Tteokbokki",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947706"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781981220000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Kimchi pancake",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberDouble": "6.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "6.5"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b1947721"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781993040000"
+      }
+    },
+    "payment": "app",
+    "items": [
+      {
+        "item": "Tteokbokki",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "21"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194772c"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1781957760000"
+      }
+    },
+    "payment": "cash",
+    "items": [
+      {
+        "item": "Tteokbokki",
+        "qty": {
+          "$numberInt": "1"
+        },
+        "price": {
+          "$numberInt": "7"
+        }
+      }
+    ],
+    "total": {
+      "$numberInt": "7"
+    },
+    "archived_reason": "vendor V13 deleted"
+  },
+  {
+    "_id": {
+      "$oid": "6af1f8f01f71ac77b194773e"
+    },
+    "vendor_id": "V13",
+    "ts": {
+      "$date": {
+        "$numberLong": "1782131820000"
+      }
+    },
+    "payment": "card",
+    "items": [
+      {
+        "item": "Bibimbap",
+        "qty": {
+          "$numberInt": "3"
+        },
+        "price": {
+          "$numberDouble": "9.5"
+        }
+      }
+    ],
+    "total": {
+      "$numberDouble": "28.5"
+    },
+    "archived_reason": "vendor V13 deleted"
+  }
+]

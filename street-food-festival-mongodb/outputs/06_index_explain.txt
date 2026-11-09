@@ -1,0 +1,50 @@
+BEFORE index:
+{
+  label: 'before',
+  stage: 'GROUP <- COLLSCAN',
+  totalDocsExamined: 275,
+  totalKeysExamined: 0,
+  nReturned: 33,
+  executionTimeMillis: 2
+}
+ts_1_total_1
+AFTER index:
+{
+  label: 'after',
+  stage: 'GROUP <- PROJECTION_COVERED <- IXSCAN',
+  totalDocsExamined: 0,
+  totalKeysExamined: 275,
+  nReturned: 33,
+  executionTimeMillis: 3
+}
+
+Comparison table
+[
+  {
+    run: 'before (no index)',
+    plan: 'GROUP <- COLLSCAN',
+    totalDocsExamined: 275,
+    totalKeysExamined: 0
+  },
+  {
+    run: 'after  {ts:1, total:1}',
+    plan: 'GROUP <- PROJECTION_COVERED <- IXSCAN',
+    totalDocsExamined: 0,
+    totalKeysExamined: 275
+  }
+]
+[
+  {
+    name: '_id_',
+    key: {
+      _id: 1
+    }
+  },
+  {
+    name: 'ts_1_total_1',
+    key: {
+      ts: 1,
+      total: 1
+    }
+  }
+]

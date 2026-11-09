@@ -1,0 +1,240 @@
+
+5.1 Vegan dishes under 7 EUR
+[
+  {
+    vendor: 'Supra Grill',
+    cuisine: 'Georgian',
+    dish: 'Churchkhela',
+    price: 3.5
+  },
+  {
+    vendor: 'Rīgas Kūpinātava',
+    cuisine: 'Latvian',
+    dish: 'Sauerkraut salad',
+    price: 3.5
+  },
+  {
+    vendor: 'Tokyo Ramen Bar',
+    cuisine: 'Japanese',
+    dish: 'Edamame',
+    price: 4
+  },
+  {
+    vendor: 'Bombay Street',
+    cuisine: 'Indian',
+    dish: 'Samosa (2 pcs)',
+    price: 4.5
+  },
+  {
+    vendor: 'Pelmeņi Express',
+    cuisine: 'Latvian',
+    dish: 'Grey peas with onion',
+    price: 5
+  },
+  {
+    vendor: 'Taco Loco',
+    cuisine: 'Mexican',
+    dish: 'Guacamole & chips',
+    price: 5
+  },
+  {
+    vendor: 'Tbilisi Fire',
+    cuisine: 'Georgian',
+    dish: 'Badrijani with walnuts',
+    price: 6
+  },
+  {
+    vendor: 'Beirut Bites',
+    cuisine: 'Lebanese',
+    dish: 'Hummus plate',
+    price: 6
+  },
+  {
+    vendor: 'Borsch & Co',
+    cuisine: 'Ukrainian',
+    dish: 'Red borscht',
+    price: 6
+  },
+  {
+    vendor: 'Sushi Wave',
+    cuisine: 'Japanese',
+    dish: 'Avocado maki',
+    price: 6.5
+  },
+  {
+    vendor: 'Seoul Food Truck',
+    cuisine: 'Korean',
+    dish: 'Kimchi pancake',
+    price: 6.5
+  },
+  {
+    vendor: 'Supra Grill',
+    cuisine: 'Georgian',
+    dish: 'Lobio bean stew',
+    price: 6.5
+  }
+]
+
+5.2 Zone B vendors with rating > 4.3
+[
+  {
+    _id: 'V03',
+    name: 'Tbilisi Fire',
+    cuisine: 'Georgian',
+    stall: {
+      zone: 'B',
+      number: 1
+    },
+    rating: 4.8
+  },
+  {
+    _id: 'V05',
+    name: 'Tokyo Ramen Bar',
+    cuisine: 'Japanese',
+    stall: {
+      zone: 'B',
+      number: 2
+    },
+    rating: 4.7
+  },
+  {
+    _id: 'V09',
+    name: 'Bombay Street',
+    cuisine: 'Indian',
+    stall: {
+      zone: 'B',
+      number: 3
+    },
+    rating: 4.6
+  },
+  {
+    _id: 'V10',
+    name: 'Beirut Bites',
+    cuisine: 'Lebanese',
+    stall: {
+      zone: 'B',
+      number: 5
+    },
+    rating: 4.5
+  }
+]
+
+5.3 Georgian prices BEFORE
+[
+  {
+    _id: 'V03',
+    name: 'Tbilisi Fire',
+    menu: [
+      {
+        item: 'Adjarian khachapuri',
+        price: 9
+      },
+      {
+        item: 'Khinkali (5 pcs)',
+        price: 8
+      },
+      {
+        item: 'Badrijani with walnuts',
+        price: 6
+      }
+    ]
+  },
+  {
+    _id: 'V04',
+    name: 'Supra Grill',
+    menu: [
+      {
+        item: 'Mtsvadi pork skewer',
+        price: 10.5
+      },
+      {
+        item: 'Lobio bean stew',
+        price: 6.5
+      },
+      {
+        item: 'Churchkhela',
+        price: 3.5
+      }
+    ]
+  }
+]
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 2,
+  modifiedCount: 2,
+  upsertedCount: 0
+}
+5.3 Georgian prices AFTER (+10 %)
+[
+  {
+    _id: 'V03',
+    name: 'Tbilisi Fire',
+    menu: [
+      {
+        item: 'Adjarian khachapuri',
+        price: 9.9
+      },
+      {
+        item: 'Khinkali (5 pcs)',
+        price: 8.8
+      },
+      {
+        item: 'Badrijani with walnuts',
+        price: 6.6
+      }
+    ]
+  },
+  {
+    _id: 'V04',
+    name: 'Supra Grill',
+    menu: [
+      {
+        item: 'Mtsvadi pork skewer',
+        price: 11.55
+      },
+      {
+        item: 'Lobio bean stew',
+        price: 7.15
+      },
+      {
+        item: 'Churchkhela',
+        price: 3.85
+      }
+    ]
+  }
+]
+Orders keep the price at the moment of sale (price snapshot), so old orders are unchanged:
+{
+  vendor_id: 'V03',
+  items: [
+    {
+      item: 'Adjarian khachapuri',
+      qty: 2,
+      price: 9
+    }
+  ],
+  total: 18
+}
+
+5.4 Delete vendor V13 (Seoul Food Truck)
+Orders pointing to V13 before delete: 25
+{
+  acknowledged: true,
+  deletedCount: 1
+}
+Vendor V13 still exists?  false
+Orders pointing to V13 after delete: 25   <-- orphaned
+Orphan check with $lookup (orders whose vendor no longer exists):
+[
+  {
+    _id: 'V13',
+    orphan_orders: 25,
+    lost_revenue: 348.5
+  }
+]
+{
+  acknowledged: true,
+  deletedCount: 25
+}
+orders: 275   orders_archive: 25   vendors: 12
